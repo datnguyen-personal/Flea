@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		04F733B71C223E1B004A4D7A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F733B61C223E1B004A4D7A /* AppDelegate.swift */; };
-		04F733B91C223E1B004A4D7A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F733B81C223E1B004A4D7A /* ViewController.swift */; };
+		04F733B91C223E1B004A4D7A /* AddingShopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F733B81C223E1B004A4D7A /* AddingShopViewController.swift */; };
 		04F733BC1C223E1B004A4D7A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04F733BA1C223E1B004A4D7A /* Main.storyboard */; };
 		04F733BE1C223E1B004A4D7A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04F733BD1C223E1B004A4D7A /* Assets.xcassets */; };
 		04F733C11C223E1B004A4D7A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04F733BF1C223E1B004A4D7A /* LaunchScreen.storyboard */; };
@@ -36,7 +36,7 @@
 /* Begin PBXFileReference section */
 		04F733B31C223E1B004A4D7A /* Flea.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flea.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04F733B61C223E1B004A4D7A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		04F733B81C223E1B004A4D7A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		04F733B81C223E1B004A4D7A /* AddingShopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddingShopViewController.swift; sourceTree = "<group>"; };
 		04F733BB1C223E1B004A4D7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		04F733BD1C223E1B004A4D7A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04F733C01C223E1B004A4D7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -98,7 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				04F733B61C223E1B004A4D7A /* AppDelegate.swift */,
-				04F733B81C223E1B004A4D7A /* ViewController.swift */,
+				04F733B81C223E1B004A4D7A /* AddingShopViewController.swift */,
 				04F733BA1C223E1B004A4D7A /* Main.storyboard */,
 				04F733BD1C223E1B004A4D7A /* Assets.xcassets */,
 				04F733BF1C223E1B004A4D7A /* LaunchScreen.storyboard */,
@@ -259,7 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04F733B91C223E1B004A4D7A /* ViewController.swift in Sources */,
+				04F733B91C223E1B004A4D7A /* AddingShopViewController.swift in Sources */,
 				04F733B71C223E1B004A4D7A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -485,6 +485,7 @@
 				04F733DD1C223E1B004A4D7A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		04F733DE1C223E1B004A4D7A /* Build configuration list for PBXNativeTarget "FleaTests" */ = {
 			isa = XCConfigurationList;
@@ -493,6 +494,7 @@
 				04F733E01C223E1B004A4D7A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		04F733E11C223E1B004A4D7A /* Build configuration list for PBXNativeTarget "FleaUITests" */ = {
 			isa = XCConfigurationList;
@@ -501,6 +503,7 @@
 				04F733E31C223E1B004A4D7A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

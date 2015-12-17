@@ -2,7 +2,7 @@
 //  FleaUITests.swift
 //  FleaUITests
 //
-//  Created by MAC on 12/17/15.
+//  Created by Sinh Quyen Ngo on 12/17/15.
 //  Copyright © 2015 ThreeStrangers. All rights reserved.
 //
 
