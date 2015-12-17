@@ -17,9 +17,10 @@ and she found Flea app”
   * [ ] User can create a new startup shop with basic information: ( required login)
         1. Shop name
         2. Background Image
-        3. Flea name: 2day SALE, Saigon Flea Market, Cho Sale …
+        3. Flea name: 2day SALE, Saigon Flea Market, Cho Sale … 
         4. Gallery
         5. Description
+ 
  * [ ] User can view a list of new startup shop
  * [ ] User can rating or comment on a shop
  * [ ] User can login, log out, register
