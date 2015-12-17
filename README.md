@@ -16,7 +16,7 @@ and she found Flea app”
 **Features:**
 **Required:** 
 
-  * [ ] User can create a new startup shop with basic information: ( required login)
+  * [ ] User can create a new flea shop with basic information: ( required login)
  
         1. Shop name
         2. Background Image
@@ -24,17 +24,17 @@ and she found Flea app”
         4. Gallery
         5. Description
  
- * [ ] User can view a list of new startup shop
- * [ ] User can rating or comment on a shop
+ * [ ] In the gallery of shop, owner shop can easily add new product to their shop
+ * [ ] User can view a list of flea market
+ * [ ] User can view a list of new flea shop
+ * [ ] User can like shop or product
  * [ ] User can login, log out, register
- * [ ] User has profile with basic information (name, gender, age, location)
- * [ ] User can short a shop list by distance, rating, cost, date
- * [ ] User can filter shop list by category: Flea name, Product
+ * [ ] User has profile with their wishlist product
  * [ ] Owner shop can change the information about shop
  * [ ] User can search with name shop or product
+ * [ ] User can view a map of Flea market
 
 **Optionals:**
-* [ ] User can add a shop to their wishlist
-* [ ] User can check-in a shop
-* [ ] User can share shop information via facebook
-
+* [ ] User can share product information via facebook
+* [ ] Owner shop can receive notification when the flea market change time or location
+* [ ] User can receive notification ("Hey!!! Go flea shopping") at weekend
