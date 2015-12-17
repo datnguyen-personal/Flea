@@ -1,7 +1,5 @@
 # Flea
 Coderschoolvn Demoday Project
-We are completed the wireframe, please review
-/cc @coderschoolreview @minhcasi @Qspace@datnguyen-personal 
 
 **Persona**
 **Vi:** “Vi is a 33 year old flea market organizer. Every weekend the location of her flea market changes. 
