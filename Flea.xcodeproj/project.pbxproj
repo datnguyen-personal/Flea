@@ -7,11 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		049F8A8E1C254DD900CFC40C /* ParseInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049F8A8D1C254DD900CFC40C /* ParseInterface.swift */; };
-		049F8A921C25570200CFC40C /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 049F8A8F1C25570200CFC40C /* FBSDKCoreKit.framework */; };
-		049F8A931C25570200CFC40C /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 049F8A901C25570200CFC40C /* FBSDKLoginKit.framework */; };
-		049F8A941C25570200CFC40C /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 049F8A911C25570200CFC40C /* FBSDKShareKit.framework */; };
-		049F8A971C255B8A00CFC40C /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049F8A961C255B8A00CFC40C /* LogInViewController.swift */; };
 		04F733B71C223E1B004A4D7A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F733B61C223E1B004A4D7A /* AppDelegate.swift */; };
 		04F733B91C223E1B004A4D7A /* AddingShopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F733B81C223E1B004A4D7A /* AddingShopViewController.swift */; };
 		04F733BC1C223E1B004A4D7A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04F733BA1C223E1B004A4D7A /* Main.storyboard */; };
@@ -20,7 +15,16 @@
 		04F733CC1C223E1B004A4D7A /* FleaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F733CB1C223E1B004A4D7A /* FleaTests.swift */; };
 		04F733D71C223E1B004A4D7A /* FleaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F733D61C223E1B004A4D7A /* FleaUITests.swift */; };
 		53A43922D20B3F6BB59E20E9 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BB8F118833FF577E5D81E38 /* Pods.framework */; };
-		B1981DD4D7F4438FF65A9910 /* Pods_Flea.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EFC12A751A305836EF42AD9 /* Pods_Flea.framework */; };
+		BA5F53C61C255FD90071EB3F /* CHTCollectionViewWaterfallLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5F53BC1C255FD90071EB3F /* CHTCollectionViewWaterfallLayout.swift */; };
+		BA5F53C71C255FD90071EB3F /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5F53BD1C255FD90071EB3F /* Extension.swift */; };
+		BA5F53C81C255FD90071EB3F /* Macro.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5F53BE1C255FD90071EB3F /* Macro.swift */; };
+		BA5F53C91C255FD90071EB3F /* NTHorizontalPageViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5F53BF1C255FD90071EB3F /* NTHorizontalPageViewCell.swift */; };
+		BA5F53CA1C255FD90071EB3F /* NTHorizontalPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5F53C01C255FD90071EB3F /* NTHorizontalPageViewController.swift */; };
+		BA5F53CB1C255FD90071EB3F /* NTNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5F53C11C255FD90071EB3F /* NTNavigationController.swift */; };
+		BA5F53CC1C255FD90071EB3F /* NTTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5F53C21C255FD90071EB3F /* NTTransition.swift */; };
+		BA5F53CD1C255FD90071EB3F /* NTTransitionProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5F53C31C255FD90071EB3F /* NTTransitionProtocol.swift */; };
+		BA5F53CE1C255FD90071EB3F /* NTWaterfallViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5F53C41C255FD90071EB3F /* NTWaterfallViewCell.swift */; };
+		BA5F53CF1C255FD90071EB3F /* NTWaterfallViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5F53C51C255FD90071EB3F /* NTWaterfallViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,12 +45,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		049F8A8D1C254DD900CFC40C /* ParseInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParseInterface.swift; sourceTree = "<group>"; };
-		049F8A8F1C25570200CFC40C /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = "../../../../../Downloads/FacebookSDKs-iOS-20151111/FBSDKCoreKit.framework"; sourceTree = "<group>"; };
-		049F8A901C25570200CFC40C /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = "../../../../../Downloads/FacebookSDKs-iOS-20151111/FBSDKLoginKit.framework"; sourceTree = "<group>"; };
-		049F8A911C25570200CFC40C /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKShareKit.framework; path = "../../../../../Downloads/FacebookSDKs-iOS-20151111/FBSDKShareKit.framework"; sourceTree = "<group>"; };
-		049F8A961C255B8A00CFC40C /* LogInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
-		04B70F141C255E6000118064 /* Flea-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Flea-Bridging-Header.h"; sourceTree = "<group>"; };
 		04F733B31C223E1B004A4D7A /* Flea.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flea.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04F733B61C223E1B004A4D7A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04F733B81C223E1B004A4D7A /* AddingShopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddingShopViewController.swift; sourceTree = "<group>"; };
@@ -60,9 +58,18 @@
 		04F733D21C223E1B004A4D7A /* FleaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FleaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04F733D61C223E1B004A4D7A /* FleaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FleaUITests.swift; sourceTree = "<group>"; };
 		04F733D81C223E1B004A4D7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5EFC12A751A305836EF42AD9 /* Pods_Flea.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Flea.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BB8F118833FF577E5D81E38 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CDF51B042A53150E8CDE283 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		BA5F53BC1C255FD90071EB3F /* CHTCollectionViewWaterfallLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CHTCollectionViewWaterfallLayout.swift; path = Extensions/CHTCollectionViewWaterfallLayout.swift; sourceTree = "<group>"; };
+		BA5F53BD1C255FD90071EB3F /* Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Extension.swift; path = Extensions/Extension.swift; sourceTree = "<group>"; };
+		BA5F53BE1C255FD90071EB3F /* Macro.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Macro.swift; path = Extensions/Macro.swift; sourceTree = "<group>"; };
+		BA5F53BF1C255FD90071EB3F /* NTHorizontalPageViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NTHorizontalPageViewCell.swift; path = Extensions/NTHorizontalPageViewCell.swift; sourceTree = "<group>"; };
+		BA5F53C01C255FD90071EB3F /* NTHorizontalPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NTHorizontalPageViewController.swift; path = Extensions/NTHorizontalPageViewController.swift; sourceTree = "<group>"; };
+		BA5F53C11C255FD90071EB3F /* NTNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NTNavigationController.swift; path = Extensions/NTNavigationController.swift; sourceTree = "<group>"; };
+		BA5F53C21C255FD90071EB3F /* NTTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NTTransition.swift; path = Extensions/NTTransition.swift; sourceTree = "<group>"; };
+		BA5F53C31C255FD90071EB3F /* NTTransitionProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NTTransitionProtocol.swift; path = Extensions/NTTransitionProtocol.swift; sourceTree = "<group>"; };
+		BA5F53C41C255FD90071EB3F /* NTWaterfallViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NTWaterfallViewCell.swift; path = Extensions/NTWaterfallViewCell.swift; sourceTree = "<group>"; };
+		BA5F53C51C255FD90071EB3F /* NTWaterfallViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NTWaterfallViewController.swift; path = Extensions/NTWaterfallViewController.swift; sourceTree = "<group>"; };
 		FED34CB362B9056C5D26139F /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -71,11 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				049F8A941C25570200CFC40C /* FBSDKShareKit.framework in Frameworks */,
 				53A43922D20B3F6BB59E20E9 /* Pods.framework in Frameworks */,
-				049F8A921C25570200CFC40C /* FBSDKCoreKit.framework in Frameworks */,
-				049F8A931C25570200CFC40C /* FBSDKLoginKit.framework in Frameworks */,
-				B1981DD4D7F4438FF65A9910 /* Pods_Flea.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,23 +99,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		049F8A8C1C254DA900CFC40C /* Parse */ = {
-			isa = PBXGroup;
-			children = (
-				049F8A8D1C254DD900CFC40C /* ParseInterface.swift */,
-			);
-			name = Parse;
-			sourceTree = "<group>";
-		};
-		049F8A951C255B5B00CFC40C /* View Controllers */ = {
-			isa = PBXGroup;
-			children = (
-				04F733B81C223E1B004A4D7A /* AddingShopViewController.swift */,
-				049F8A961C255B8A00CFC40C /* LogInViewController.swift */,
-			);
-			name = "View Controllers";
-			sourceTree = "<group>";
-		};
 		04F733AA1C223E1A004A4D7A = {
 			isa = PBXGroup;
 			children = (
@@ -138,14 +124,16 @@
 		04F733B51C223E1B004A4D7A /* Flea */ = {
 			isa = PBXGroup;
 			children = (
-				049F8A951C255B5B00CFC40C /* View Controllers */,
-				049F8A8C1C254DA900CFC40C /* Parse */,
+				BA5F53D51C2560B20071EB3F /* Modal */,
 				04F733B61C223E1B004A4D7A /* AppDelegate.swift */,
+				BA5F53D41C25602C0071EB3F /* Views */,
+				BA5F53D31C2560260071EB3F /* Controllers */,
+				BA5F53D21C25601C0071EB3F /* Cells */,
+				BA5F53D01C255FE40071EB3F /* Extensions */,
 				04F733BA1C223E1B004A4D7A /* Main.storyboard */,
 				04F733BD1C223E1B004A4D7A /* Assets.xcassets */,
 				04F733BF1C223E1B004A4D7A /* LaunchScreen.storyboard */,
 				04F733C21C223E1B004A4D7A /* Info.plist */,
-				04B70F141C255E6000118064 /* Flea-Bridging-Header.h */,
 			);
 			path = Flea;
 			sourceTree = "<group>";
@@ -180,13 +168,63 @@
 		AC7B9BA4BEA6C45D94A086CB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				049F8A8F1C25570200CFC40C /* FBSDKCoreKit.framework */,
-				049F8A901C25570200CFC40C /* FBSDKLoginKit.framework */,
-				049F8A911C25570200CFC40C /* FBSDKShareKit.framework */,
 				7BB8F118833FF577E5D81E38 /* Pods.framework */,
-				5EFC12A751A305836EF42AD9 /* Pods_Flea.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BA5F53D01C255FE40071EB3F /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				BA5F53D11C255FF50071EB3F /* Transition */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		BA5F53D11C255FF50071EB3F /* Transition */ = {
+			isa = PBXGroup;
+			children = (
+				BA5F53BC1C255FD90071EB3F /* CHTCollectionViewWaterfallLayout.swift */,
+				BA5F53BD1C255FD90071EB3F /* Extension.swift */,
+				BA5F53BE1C255FD90071EB3F /* Macro.swift */,
+				BA5F53C11C255FD90071EB3F /* NTNavigationController.swift */,
+				BA5F53C21C255FD90071EB3F /* NTTransition.swift */,
+				BA5F53C31C255FD90071EB3F /* NTTransitionProtocol.swift */,
+			);
+			name = Transition;
+			sourceTree = "<group>";
+		};
+		BA5F53D21C25601C0071EB3F /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				BA5F53BF1C255FD90071EB3F /* NTHorizontalPageViewCell.swift */,
+				BA5F53C41C255FD90071EB3F /* NTWaterfallViewCell.swift */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		BA5F53D31C2560260071EB3F /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				BA5F53C01C255FD90071EB3F /* NTHorizontalPageViewController.swift */,
+				BA5F53C51C255FD90071EB3F /* NTWaterfallViewController.swift */,
+				04F733B81C223E1B004A4D7A /* AddingShopViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		BA5F53D41C25602C0071EB3F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		BA5F53D51C2560B20071EB3F /* Modal */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Modal;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -349,7 +387,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Flea/Pods-Flea-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		251456DA8326C40AECFF671B /* Copy Pods Resources */ = {
@@ -374,10 +412,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				049F8A971C255B8A00CFC40C /* LogInViewController.swift in Sources */,
 				04F733B91C223E1B004A4D7A /* AddingShopViewController.swift in Sources */,
 				04F733B71C223E1B004A4D7A /* AppDelegate.swift in Sources */,
-				049F8A8E1C254DD900CFC40C /* ParseInterface.swift in Sources */,
+				BA5F53CC1C255FD90071EB3F /* NTTransition.swift in Sources */,
+				BA5F53CA1C255FD90071EB3F /* NTHorizontalPageViewController.swift in Sources */,
+				BA5F53C61C255FD90071EB3F /* CHTCollectionViewWaterfallLayout.swift in Sources */,
+				BA5F53C91C255FD90071EB3F /* NTHorizontalPageViewCell.swift in Sources */,
+				BA5F53CD1C255FD90071EB3F /* NTTransitionProtocol.swift in Sources */,
+				BA5F53CE1C255FD90071EB3F /* NTWaterfallViewCell.swift in Sources */,
+				BA5F53CB1C255FD90071EB3F /* NTNavigationController.swift in Sources */,
+				BA5F53CF1C255FD90071EB3F /* NTWaterfallViewController.swift in Sources */,
+				BA5F53C71C255FD90071EB3F /* Extension.swift in Sources */,
+				BA5F53C81C255FD90071EB3F /* Macro.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -518,13 +564,10 @@
 			baseConfigurationReference = FED34CB362B9056C5D26139F /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = Flea/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ThreeStrangers-Flea.Flea";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "Flea/Flea-Bridging-Header.h";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -533,12 +576,10 @@
 			baseConfigurationReference = 7CDF51B042A53150E8CDE283 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = Flea/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ThreeStrangers-Flea.Flea";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "Flea/Flea-Bridging-Header.h";
 			};
 			name = Release;
 		};
