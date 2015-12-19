@@ -17,7 +17,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         
-        Parse.setApplicationId("UrI6mw9BZBe1pZivCeP5hr9m86eEberAHKUy6PHJ", clientKey: "FkbKKZ8neqVBQhGVBSrUOcKT4LKvrMW0fWnlOn2Y")
+        ParseInterface.sharedInstance.parseSetup()
         PFUser.enableAutomaticUser()
         
         let defaultACL = PFACL();
