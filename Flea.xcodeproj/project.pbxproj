@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0409C33F1C2652EC0083AC53 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0409C33E1C2652EC0083AC53 /* LogInViewController.swift */; };
+		041FB7711C2562BB00F31EDE /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 041FB76E1C2562BB00F31EDE /* FBSDKCoreKit.framework */; };
+		041FB7721C2562BB00F31EDE /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 041FB76F1C2562BB00F31EDE /* FBSDKLoginKit.framework */; };
+		041FB7731C2562BB00F31EDE /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 041FB7701C2562BB00F31EDE /* FBSDKShareKit.framework */; };
+		045C9F341C25754A0005B278 /* ParseInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045C9F331C25754A0005B278 /* ParseInterface.swift */; };
 		04F733B71C223E1B004A4D7A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F733B61C223E1B004A4D7A /* AppDelegate.swift */; };
 		04F733B91C223E1B004A4D7A /* AddingShopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F733B81C223E1B004A4D7A /* AddingShopViewController.swift */; };
 		04F733BC1C223E1B004A4D7A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04F733BA1C223E1B004A4D7A /* Main.storyboard */; };
@@ -45,6 +50,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0409C33E1C2652EC0083AC53 /* LogInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
+		041FB76E1C2562BB00F31EDE /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = "../../../../../Downloads/FacebookSDKs-iOS-20151111/FBSDKCoreKit.framework"; sourceTree = "<group>"; };
+		041FB76F1C2562BB00F31EDE /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = "../../../../../Downloads/FacebookSDKs-iOS-20151111/FBSDKLoginKit.framework"; sourceTree = "<group>"; };
+		041FB7701C2562BB00F31EDE /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKShareKit.framework; path = "../../../../../Downloads/FacebookSDKs-iOS-20151111/FBSDKShareKit.framework"; sourceTree = "<group>"; };
+		041FB7741C2563B600F31EDE /* Flea-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Flea-Bridging-Header.h"; sourceTree = "<group>"; };
+		045C9F331C25754A0005B278 /* ParseInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParseInterface.swift; sourceTree = "<group>"; };
 		04F733B31C223E1B004A4D7A /* Flea.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flea.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04F733B61C223E1B004A4D7A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04F733B81C223E1B004A4D7A /* AddingShopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddingShopViewController.swift; sourceTree = "<group>"; };
@@ -78,7 +89,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				041FB7731C2562BB00F31EDE /* FBSDKShareKit.framework in Frameworks */,
 				53A43922D20B3F6BB59E20E9 /* Pods.framework in Frameworks */,
+				041FB7711C2562BB00F31EDE /* FBSDKCoreKit.framework in Frameworks */,
+				041FB7721C2562BB00F31EDE /* FBSDKLoginKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,6 +113,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		045C9F301C25748B0005B278 /* Parse */ = {
+			isa = PBXGroup;
+			children = (
+				045C9F331C25754A0005B278 /* ParseInterface.swift */,
+			);
+			name = Parse;
+			sourceTree = "<group>";
+		};
 		04F733AA1C223E1A004A4D7A = {
 			isa = PBXGroup;
 			children = (
@@ -124,6 +146,7 @@
 		04F733B51C223E1B004A4D7A /* Flea */ = {
 			isa = PBXGroup;
 			children = (
+				045C9F301C25748B0005B278 /* Parse */,
 				BA5F53D51C2560B20071EB3F /* Modal */,
 				04F733B61C223E1B004A4D7A /* AppDelegate.swift */,
 				BA5F53D41C25602C0071EB3F /* Views */,
@@ -134,6 +157,7 @@
 				04F733BD1C223E1B004A4D7A /* Assets.xcassets */,
 				04F733BF1C223E1B004A4D7A /* LaunchScreen.storyboard */,
 				04F733C21C223E1B004A4D7A /* Info.plist */,
+				041FB7741C2563B600F31EDE /* Flea-Bridging-Header.h */,
 			);
 			path = Flea;
 			sourceTree = "<group>";
@@ -168,6 +192,9 @@
 		AC7B9BA4BEA6C45D94A086CB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				041FB76E1C2562BB00F31EDE /* FBSDKCoreKit.framework */,
+				041FB76F1C2562BB00F31EDE /* FBSDKLoginKit.framework */,
+				041FB7701C2562BB00F31EDE /* FBSDKShareKit.framework */,
 				7BB8F118833FF577E5D81E38 /* Pods.framework */,
 			);
 			name = Frameworks;
@@ -206,6 +233,7 @@
 		BA5F53D31C2560260071EB3F /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				0409C33E1C2652EC0083AC53 /* LogInViewController.swift */,
 				BA5F53C01C255FD90071EB3F /* NTHorizontalPageViewController.swift */,
 				BA5F53C51C255FD90071EB3F /* NTWaterfallViewController.swift */,
 				04F733B81C223E1B004A4D7A /* AddingShopViewController.swift */,
@@ -418,9 +446,11 @@
 				BA5F53CA1C255FD90071EB3F /* NTHorizontalPageViewController.swift in Sources */,
 				BA5F53C61C255FD90071EB3F /* CHTCollectionViewWaterfallLayout.swift in Sources */,
 				BA5F53C91C255FD90071EB3F /* NTHorizontalPageViewCell.swift in Sources */,
+				045C9F341C25754A0005B278 /* ParseInterface.swift in Sources */,
 				BA5F53CD1C255FD90071EB3F /* NTTransitionProtocol.swift in Sources */,
 				BA5F53CE1C255FD90071EB3F /* NTWaterfallViewCell.swift in Sources */,
 				BA5F53CB1C255FD90071EB3F /* NTNavigationController.swift in Sources */,
+				0409C33F1C2652EC0083AC53 /* LogInViewController.swift in Sources */,
 				BA5F53CF1C255FD90071EB3F /* NTWaterfallViewController.swift in Sources */,
 				BA5F53C71C255FD90071EB3F /* Extension.swift in Sources */,
 				BA5F53C81C255FD90071EB3F /* Macro.swift in Sources */,
@@ -564,10 +594,13 @@
 			baseConfigurationReference = FED34CB362B9056C5D26139F /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = Flea/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ThreeStrangers-Flea.Flea";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Flea/Flea-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -576,10 +609,12 @@
 			baseConfigurationReference = 7CDF51B042A53150E8CDE283 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = Flea/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ThreeStrangers-Flea.Flea";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Flea/Flea-Bridging-Header.h";
 			};
 			name = Release;
 		};

@@ -7,3 +7,4 @@ use_frameworks!
     pod 'ParseFacebookUtilsV4'
     pod 'FBSDKCoreKit'
     pod 'FBSDKLoginKit'
+    pod 'FBSDKShareKit'
