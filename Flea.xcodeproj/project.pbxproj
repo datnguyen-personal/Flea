@@ -12,6 +12,13 @@
 		041FB7721C2562BB00F31EDE /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 041FB76F1C2562BB00F31EDE /* FBSDKLoginKit.framework */; };
 		041FB7731C2562BB00F31EDE /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 041FB7701C2562BB00F31EDE /* FBSDKShareKit.framework */; };
 		045C9F341C25754A0005B278 /* ParseInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045C9F331C25754A0005B278 /* ParseInterface.swift */; };
+		046CBB221C2B6D61005AA0DD /* DisplayShopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046CBB211C2B6D61005AA0DD /* DisplayShopViewController.swift */; };
+		046CBB241C2B759A005AA0DD /* shopDisplayInfoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046CBB231C2B759A005AA0DD /* shopDisplayInfoTableViewCell.swift */; };
+		0477EEC21C27DB9A00C12BF6 /* shopInfoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0477EEC11C27DB9A00C12BF6 /* shopInfoTableViewCell.swift */; };
+		0477EEC41C27DFD700C12BF6 /* shopGalleryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0477EEC31C27DFD700C12BF6 /* shopGalleryTableViewCell.swift */; };
+		047ABFEB1C298C4F00916D0A /* MyColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047ABFEA1C298C4F00916D0A /* MyColor.swift */; };
+		04E29C4C1C2D0CC700299F64 /* Shop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E29C4B1C2D0CC700299F64 /* Shop.swift */; };
+		04F503901C2D43BB0076DF5E /* GalleryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F5038F1C2D43BB0076DF5E /* GalleryCollectionViewCell.swift */; };
 		04F733B71C223E1B004A4D7A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F733B61C223E1B004A4D7A /* AppDelegate.swift */; };
 		04F733B91C223E1B004A4D7A /* AddingShopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F733B81C223E1B004A4D7A /* AddingShopViewController.swift */; };
 		04F733BC1C223E1B004A4D7A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04F733BA1C223E1B004A4D7A /* Main.storyboard */; };
@@ -56,6 +63,13 @@
 		041FB7701C2562BB00F31EDE /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKShareKit.framework; path = "../../../../../Downloads/FacebookSDKs-iOS-20151111/FBSDKShareKit.framework"; sourceTree = "<group>"; };
 		041FB7741C2563B600F31EDE /* Flea-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Flea-Bridging-Header.h"; sourceTree = "<group>"; };
 		045C9F331C25754A0005B278 /* ParseInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParseInterface.swift; sourceTree = "<group>"; };
+		046CBB211C2B6D61005AA0DD /* DisplayShopViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DisplayShopViewController.swift; sourceTree = "<group>"; };
+		046CBB231C2B759A005AA0DD /* shopDisplayInfoTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = shopDisplayInfoTableViewCell.swift; sourceTree = "<group>"; };
+		0477EEC11C27DB9A00C12BF6 /* shopInfoTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = shopInfoTableViewCell.swift; sourceTree = "<group>"; };
+		0477EEC31C27DFD700C12BF6 /* shopGalleryTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = shopGalleryTableViewCell.swift; sourceTree = "<group>"; };
+		047ABFEA1C298C4F00916D0A /* MyColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyColor.swift; sourceTree = "<group>"; };
+		04E29C4B1C2D0CC700299F64 /* Shop.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Shop.swift; sourceTree = "<group>"; };
+		04F5038F1C2D43BB0076DF5E /* GalleryCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GalleryCollectionViewCell.swift; sourceTree = "<group>"; };
 		04F733B31C223E1B004A4D7A /* Flea.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flea.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04F733B61C223E1B004A4D7A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04F733B81C223E1B004A4D7A /* AddingShopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddingShopViewController.swift; sourceTree = "<group>"; };
@@ -121,6 +135,14 @@
 			name = Parse;
 			sourceTree = "<group>";
 		};
+		047ABFEC1C298C5500916D0A /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				047ABFEA1C298C4F00916D0A /* MyColor.swift */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
 		04F733AA1C223E1A004A4D7A = {
 			isa = PBXGroup;
 			children = (
@@ -146,6 +168,7 @@
 		04F733B51C223E1B004A4D7A /* Flea */ = {
 			isa = PBXGroup;
 			children = (
+				047ABFEC1C298C5500916D0A /* Utils */,
 				045C9F301C25748B0005B278 /* Parse */,
 				BA5F53D51C2560B20071EB3F /* Modal */,
 				04F733B61C223E1B004A4D7A /* AppDelegate.swift */,
@@ -226,6 +249,10 @@
 			children = (
 				BA5F53BF1C255FD90071EB3F /* NTHorizontalPageViewCell.swift */,
 				BA5F53C41C255FD90071EB3F /* NTWaterfallViewCell.swift */,
+				0477EEC11C27DB9A00C12BF6 /* shopInfoTableViewCell.swift */,
+				0477EEC31C27DFD700C12BF6 /* shopGalleryTableViewCell.swift */,
+				046CBB231C2B759A005AA0DD /* shopDisplayInfoTableViewCell.swift */,
+				04F5038F1C2D43BB0076DF5E /* GalleryCollectionViewCell.swift */,
 			);
 			name = Cells;
 			sourceTree = "<group>";
@@ -237,6 +264,7 @@
 				BA5F53C01C255FD90071EB3F /* NTHorizontalPageViewController.swift */,
 				BA5F53C51C255FD90071EB3F /* NTWaterfallViewController.swift */,
 				04F733B81C223E1B004A4D7A /* AddingShopViewController.swift */,
+				046CBB211C2B6D61005AA0DD /* DisplayShopViewController.swift */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -251,6 +279,7 @@
 		BA5F53D51C2560B20071EB3F /* Modal */ = {
 			isa = PBXGroup;
 			children = (
+				04E29C4B1C2D0CC700299F64 /* Shop.swift */,
 			);
 			name = Modal;
 			sourceTree = "<group>";
@@ -440,19 +469,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				046CBB221C2B6D61005AA0DD /* DisplayShopViewController.swift in Sources */,
 				04F733B91C223E1B004A4D7A /* AddingShopViewController.swift in Sources */,
 				04F733B71C223E1B004A4D7A /* AppDelegate.swift in Sources */,
+				04E29C4C1C2D0CC700299F64 /* Shop.swift in Sources */,
 				BA5F53CC1C255FD90071EB3F /* NTTransition.swift in Sources */,
 				BA5F53CA1C255FD90071EB3F /* NTHorizontalPageViewController.swift in Sources */,
 				BA5F53C61C255FD90071EB3F /* CHTCollectionViewWaterfallLayout.swift in Sources */,
 				BA5F53C91C255FD90071EB3F /* NTHorizontalPageViewCell.swift in Sources */,
+				0477EEC41C27DFD700C12BF6 /* shopGalleryTableViewCell.swift in Sources */,
 				045C9F341C25754A0005B278 /* ParseInterface.swift in Sources */,
+				0477EEC21C27DB9A00C12BF6 /* shopInfoTableViewCell.swift in Sources */,
 				BA5F53CD1C255FD90071EB3F /* NTTransitionProtocol.swift in Sources */,
+				047ABFEB1C298C4F00916D0A /* MyColor.swift in Sources */,
 				BA5F53CE1C255FD90071EB3F /* NTWaterfallViewCell.swift in Sources */,
 				BA5F53CB1C255FD90071EB3F /* NTNavigationController.swift in Sources */,
 				0409C33F1C2652EC0083AC53 /* LogInViewController.swift in Sources */,
 				BA5F53CF1C255FD90071EB3F /* NTWaterfallViewController.swift in Sources */,
+				046CBB241C2B759A005AA0DD /* shopDisplayInfoTableViewCell.swift in Sources */,
 				BA5F53C71C255FD90071EB3F /* Extension.swift in Sources */,
+				04F503901C2D43BB0076DF5E /* GalleryCollectionViewCell.swift in Sources */,
 				BA5F53C81C255FD90071EB3F /* Macro.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
