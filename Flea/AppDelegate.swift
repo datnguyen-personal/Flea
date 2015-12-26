@@ -20,6 +20,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         
+        setupSubclass()
         ParseInterface.sharedInstance.parseSetup()
         
         PFUser.enableAutomaticUser()
@@ -38,6 +39,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     func applicationDidBecomeActive(application: UIApplication) {
         FBSDKAppEvents.activateApp()
+    }
+    
+    func setupSubclass() {
+        Shop.registerSubclass()
     }
     
 }

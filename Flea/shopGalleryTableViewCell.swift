@@ -33,5 +33,15 @@ class shopGalleryTableViewCell: UITableViewCell {
             collectionView.tag = row
             collectionView.reloadData()
     }
+    
+    func getGalleryFile() -> [PFFile]? {
+        var file: [PFFile]?
+        var indexPath = NSIndexPath(forRow: 0, inSection: 0)
+        let cell = collectionView.cellForItemAtIndexPath(indexPath) as! GalleryCollectionViewCell
+        
+        
+        return file
+        
+    }
 
 }

@@ -26,6 +26,7 @@ class LogInViewController: UIViewController,PFLogInViewControllerDelegate {
     
     override func viewDidAppear(animated: Bool) {
         print("view Didappear")
+        performSegueWithIdentifier("shopSegue", sender: self)
         super.viewDidAppear(animated)
         var currentUser = PFUser.currentUser()?.username
         if (currentUser == nil) {
