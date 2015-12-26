@@ -8,6 +8,11 @@
 
 import UIKit
 
+let qTapImageNotificationKey = "q.tapNotificationkey"
+//MARK: Implement delegate
+//@objc protocol shopInfoTableViewCellDelegate {
+//    optional func tapProfileImage(shopInfoTableViewCell: shopInfoTableViewCell, image: UIImage?)
+//}
 class shopInfoTableViewCell: UITableViewCell {
     
     @IBOutlet weak var shopProfileImgView: UIImageView!
@@ -17,29 +22,47 @@ class shopInfoTableViewCell: UITableViewCell {
     @IBOutlet weak var faceLinkTextField: UITextField!
     
     @IBOutlet weak var phoneTextField: UITextField!
-
+    
     @IBOutlet weak var emailTextField: UITextField!
     
     @IBOutlet weak var addPhotoButton: UIButton!
+    
+//    var delegate: shopInfoTableViewCellDelegate?
+    
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
-
+        
         shopProfileImgView.addSubview(addPhotoButton)
         shopProfileImgView.bringSubviewToFront(addPhotoButton)
+        
+        let tap = UITapGestureRecognizer(target: self, action: Selector("handleTapProfileImg:"))
+        tap.delegate = self
+        shopProfileImgView.addGestureRecognizer(tap)
     }
-
+    
     override func setSelected(selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
-
+        
         // Configure the view for the selected state
     }
     
-    func SetInfo(edittingShop :Shop) {
-        edittingShop.name = shopNameTextField.text
-        edittingShop.facebookLink = faceLinkTextField.text
-        edittingShop.phone = phoneTextField.text
-        edittingShop.email = emailTextField.text
+    func setInfo(completion: (edittingShop: Shop?, error: NSError?) -> ()) {
+        let shop = Shop()
+        shop.name = shopNameTextField.text
+        shop.facebookLink = faceLinkTextField.text
+        shop.phone = phoneTextField.text
+        shop.email = emailTextField.text
+        let image = shopProfileImgView.image
+        let imageFile = PFFile(name: "shopProfileImg", data: UIImageJPEGRepresentation(image!, 0.4)!)
+        shop.profileImg = imageFile!
+        print("PFFIle: ",shop.profileImg)
+        completion(edittingShop: shop, error: nil)
     }
-
+    
+    func handleTapProfileImg(sender: UITapGestureRecognizer? = nil) {
+        print("tap Image")
+//        delegate?.tapProfileImage!(self, image: shopProfileImgView.image)
+        NSNotificationCenter.defaultCenter().postNotificationName(qTapImageNotificationKey, object: self)
+    }
+    
 }

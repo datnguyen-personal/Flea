@@ -2,7 +2,7 @@
 //  GalleryCollectionViewCell.swift
 //  Flea
 //
-//  Created by MAC on 12/25/15.
+//  Created by Sinh Quyen Ngo on 12/25/15.
 //  Copyright © 2015 ThreeStrangers. All rights reserved.
 //
 
