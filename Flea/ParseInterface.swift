@@ -11,8 +11,11 @@ import Parse
 
 class ParseInterface: NSObject {
     
-    let appId = "UrI6mw9BZBe1pZivCeP5hr9m86eEberAHKUy6PHJ"
-    let clientKey = "FkbKKZ8neqVBQhGVBSrUOcKT4LKvrMW0fWnlOn2Y"
+    let appId = "5bHoTl4zaxjxd3W2yInkpvA6qwxOMwv83PPHPlgE"
+    let clientKey = "4dUz8BLHSipyzUVMnLTvMBaLw7rHGf3xCzBbEOEp"
+    
+//    let appId = "UrI6mw9BZBe1pZivCeP5hr9m86eEberAHKUy6PHJ"
+//    let clientKey = "FkbKKZ8neqVBQhGVBSrUOcKT4LKvrMW0fWnlOn2Y"
     
     var signUpIsSuccess = false
     var loginIsSuccess = false

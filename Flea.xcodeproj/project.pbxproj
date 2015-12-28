@@ -20,6 +20,9 @@
 		04F733CC1C223E1B004A4D7A /* FleaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F733CB1C223E1B004A4D7A /* FleaTests.swift */; };
 		04F733D71C223E1B004A4D7A /* FleaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F733D61C223E1B004A4D7A /* FleaUITests.swift */; };
 		53A43922D20B3F6BB59E20E9 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BB8F118833FF577E5D81E38 /* Pods.framework */; };
+		AA834F2F1C2864E1002ADFB0 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA834F2E1C2864E1002ADFB0 /* SignInViewController.swift */; };
+		AA834F311C2AA7D6002ADFB0 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA834F301C2AA7D6002ADFB0 /* SignUpViewController.swift */; };
+		AA834F331C2B0358002ADFB0 /* ParseError.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA834F321C2B0358002ADFB0 /* ParseError.swift */; };
 		BA5F53C61C255FD90071EB3F /* CHTCollectionViewWaterfallLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5F53BC1C255FD90071EB3F /* CHTCollectionViewWaterfallLayout.swift */; };
 		BA5F53C71C255FD90071EB3F /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5F53BD1C255FD90071EB3F /* Extension.swift */; };
 		BA5F53C81C255FD90071EB3F /* Macro.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5F53BE1C255FD90071EB3F /* Macro.swift */; };
@@ -71,6 +74,9 @@
 		04F733D81C223E1B004A4D7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7BB8F118833FF577E5D81E38 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CDF51B042A53150E8CDE283 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		AA834F2E1C2864E1002ADFB0 /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		AA834F301C2AA7D6002ADFB0 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		AA834F321C2B0358002ADFB0 /* ParseError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParseError.swift; sourceTree = "<group>"; };
 		BA5F53BC1C255FD90071EB3F /* CHTCollectionViewWaterfallLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CHTCollectionViewWaterfallLayout.swift; path = Extensions/CHTCollectionViewWaterfallLayout.swift; sourceTree = "<group>"; };
 		BA5F53BD1C255FD90071EB3F /* Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Extension.swift; path = Extensions/Extension.swift; sourceTree = "<group>"; };
 		BA5F53BE1C255FD90071EB3F /* Macro.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Macro.swift; path = Extensions/Macro.swift; sourceTree = "<group>"; };
@@ -117,6 +123,7 @@
 			isa = PBXGroup;
 			children = (
 				045C9F331C25754A0005B278 /* ParseInterface.swift */,
+				AA834F321C2B0358002ADFB0 /* ParseError.swift */,
 			);
 			name = Parse;
 			sourceTree = "<group>";
@@ -147,13 +154,13 @@
 			isa = PBXGroup;
 			children = (
 				045C9F301C25748B0005B278 /* Parse */,
-				BA5F53D51C2560B20071EB3F /* Modal */,
-				04F733B61C223E1B004A4D7A /* AppDelegate.swift */,
+				BA5F53D51C2560B20071EB3F /* Model */,
 				BA5F53D41C25602C0071EB3F /* Views */,
 				BA5F53D31C2560260071EB3F /* Controllers */,
 				BA5F53D21C25601C0071EB3F /* Cells */,
 				BA5F53D01C255FE40071EB3F /* Extensions */,
 				04F733BA1C223E1B004A4D7A /* Main.storyboard */,
+				04F733B61C223E1B004A4D7A /* AppDelegate.swift */,
 				04F733BD1C223E1B004A4D7A /* Assets.xcassets */,
 				04F733BF1C223E1B004A4D7A /* LaunchScreen.storyboard */,
 				04F733C21C223E1B004A4D7A /* Info.plist */,
@@ -237,6 +244,8 @@
 				BA5F53C01C255FD90071EB3F /* NTHorizontalPageViewController.swift */,
 				BA5F53C51C255FD90071EB3F /* NTWaterfallViewController.swift */,
 				04F733B81C223E1B004A4D7A /* AddingShopViewController.swift */,
+				AA834F2E1C2864E1002ADFB0 /* SignInViewController.swift */,
+				AA834F301C2AA7D6002ADFB0 /* SignUpViewController.swift */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -248,11 +257,11 @@
 			name = Views;
 			sourceTree = "<group>";
 		};
-		BA5F53D51C2560B20071EB3F /* Modal */ = {
+		BA5F53D51C2560B20071EB3F /* Model */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			name = Modal;
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -444,11 +453,14 @@
 				04F733B71C223E1B004A4D7A /* AppDelegate.swift in Sources */,
 				BA5F53CC1C255FD90071EB3F /* NTTransition.swift in Sources */,
 				BA5F53CA1C255FD90071EB3F /* NTHorizontalPageViewController.swift in Sources */,
+				AA834F331C2B0358002ADFB0 /* ParseError.swift in Sources */,
 				BA5F53C61C255FD90071EB3F /* CHTCollectionViewWaterfallLayout.swift in Sources */,
 				BA5F53C91C255FD90071EB3F /* NTHorizontalPageViewCell.swift in Sources */,
 				045C9F341C25754A0005B278 /* ParseInterface.swift in Sources */,
 				BA5F53CD1C255FD90071EB3F /* NTTransitionProtocol.swift in Sources */,
+				AA834F2F1C2864E1002ADFB0 /* SignInViewController.swift in Sources */,
 				BA5F53CE1C255FD90071EB3F /* NTWaterfallViewCell.swift in Sources */,
+				AA834F311C2AA7D6002ADFB0 /* SignUpViewController.swift in Sources */,
 				BA5F53CB1C255FD90071EB3F /* NTNavigationController.swift in Sources */,
 				0409C33F1C2652EC0083AC53 /* LogInViewController.swift in Sources */,
 				BA5F53CF1C255FD90071EB3F /* NTWaterfallViewController.swift in Sources */,

@@ -10,7 +10,7 @@ import UIKit
 import Parse
 import ParseUI
 
-class LogInViewController: UIViewController,PFLogInViewControllerDelegate {
+class LogInViewController: UIViewController, PFLogInViewControllerDelegate, PFSignUpViewControllerDelegate {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -27,12 +27,17 @@ class LogInViewController: UIViewController,PFLogInViewControllerDelegate {
     override func viewDidAppear(animated: Bool) {
         print("view Didappear")
         super.viewDidAppear(animated)
-        var currentUser = PFUser.currentUser()?.username
+        PFUser.logOut()
+        
+        let currentUser = PFUser.currentUser()?.username
         if (currentUser == nil) {
             let loginViewController = PFLogInViewController()
             loginViewController.delegate = self
             loginViewController.fields = [.UsernameAndPassword, .LogInButton, .PasswordForgotten, .SignUpButton, .Facebook]
             loginViewController.emailAsUsername = true
+            
+            loginViewController.signUpController?.delegate = self
+            
             self.presentViewController(loginViewController, animated: false, completion: nil)
         } else {
             presentLoggedInAlert()
@@ -50,9 +55,14 @@ class LogInViewController: UIViewController,PFLogInViewControllerDelegate {
     
     func logInViewController(logInController: PFLogInViewController, didLogInUser user: PFUser) {
         self.dismissViewControllerAnimated(true, completion: nil)
+        print("user", user)
         presentLoggedInAlert()
     }
     
+    func signUpViewController(signUpController: PFSignUpViewController, didSignUpUser user: PFUser) {
+        self.dismissViewControllerAnimated(true, completion: nil)
+        presentLoggedInAlert()
+    }
 
     /*
     // MARK: - Navigation

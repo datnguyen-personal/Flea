@@ -10,6 +10,7 @@ import UIKit
 import Parse
 import Bolts
 import ParseFacebookUtilsV4
+import Parse
 import FBSDKCoreKit
 import FBSDKLoginKit
 
@@ -17,6 +18,8 @@ import FBSDKLoginKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
     
     var window: UIWindow?
+    
+    let storyboard = UIStoryboard(name: "Main", bundle: nil)
     
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         
@@ -30,15 +33,27 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         PFACL.setDefaultACL(defaultACL, withAccessForCurrentUser:true)
         PFFacebookUtils.initializeFacebookWithApplicationLaunchOptions(launchOptions)
         
-        return true
+        if PFUser.currentUser() != nil {
+            //Go to main screen
+            //let vc = storyboard.instantiateViewControllerWithIdentifier("MainViewController") as UIViewController
+            
+            //window?.rootViewController = vc
+        }
+        
+        return FBSDKApplicationDelegate.sharedInstance().application(application, didFinishLaunchingWithOptions: launchOptions)
     }
-    func application(application: UIApplication, openURL url: NSURL, sourceApplication: String?, annotation: AnyObject?) -> Bool {
-        return FBSDKApplicationDelegate.sharedInstance().application(application, openURL: url, sourceApplication: sourceApplication, annotation: annotation)
+    func application(application: UIApplication, openURL url: NSURL, sourceApplication: String?, annotation: AnyObject) -> Bool {
+        
+        return FBSDKApplicationDelegate.sharedInstance().application(
+            application,
+            openURL: url,
+            sourceApplication: sourceApplication,
+            annotation: annotation)
     }
     
-    func applicationDidBecomeActive(application: UIApplication) {
-        FBSDKAppEvents.activateApp()
-    }
+//    func applicationDidBecomeActive(application: UIApplication) {
+//        FBSDKAppEvents.activateApp()
+//    }
     
 }
 
